@@ -126,6 +126,37 @@ h3 {
     background-color: #34c6d3;
     margin: 0 auto 30px auto;
 }
+/* ==========================================
+                SOCIAL (Generic)
+=============================================*/
+
+.social-list{
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 20px;
+}
+
+.icon-gray i {
+    color: #64707b;
+    transition: all 0.4s ease;
+}
+
+.icon-gray i:hover{
+    color: #34c6d3;
+}
+
+
 
 /* ==========================================
                 HOME
@@ -263,3 +294,32 @@ h3 {
     transform: scale(1.5);
     cursor: zoom-in;
 }
+
+/* ==========================================
+                TEAM
+=============================================*/
+
+#team-member{
+    margin: 0 15px;
+}
+
+.team-member-info{
+    padding: 10px 0 30px 0;
+}
+
+.team-member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+.team-member-designation{
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
