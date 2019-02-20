@@ -17,9 +17,9 @@ function IniciarComponentes (){
      });
  
      // Carousel gallery
-     $('.owl-carousel').owlCarousel({
+     $('#team-members').owlCarousel({
          loop:true,
-         margin:10,
+         margin:20,
          nav:true,
          autoplay: true,
          smartSpeed: 700,
@@ -36,6 +36,14 @@ function IniciarComponentes (){
              }
          }
      }); 
+     $('#customers-testimonials').owlCarousel({
+        loop:true,
+        nav:true,
+        autoplay: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        items:1
+    }); 
 }
 
 

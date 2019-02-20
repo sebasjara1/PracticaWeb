@@ -120,12 +120,17 @@ h3 {
     margin: 0 0 30px 0;
 }
 
+.content-title-white h3{
+    color: #fff;
+}
+
 .content-title-underline{
     width: 30px;
     height: 3px;
     background-color: #34c6d3;
     margin: 0 auto 30px auto;
 }
+
 /* ==========================================
                 SOCIAL (Generic)
 =============================================*/
@@ -323,3 +328,91 @@ h3 {
     margin-top: 5px;
 }
 
+/* ==========================================
+                TESTIMONIALS
+=============================================*/
+
+#testimonials-cover{
+    background-image: url("../img/bg-testimonials.jpg");
+}
+
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#customers-testimonials{
+    padding: 50px 0;
+}
+
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    padding: 6px 150px;
+    position: relative;
+}
+
+.testimonial blockquote p {
+    color: #ffffff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+/* Comillas desde CSS */
+
+.testimonial blockquote::before{
+    content: "\201c";
+    top: 0;
+    left: 100px;
+}
+
+.testimonial blockquote::after{
+    content: "\201d";
+    top: 0;
+    right: 100px;
+}
+
+.testimonial-author p{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.testimonial-author p strong{
+    display: block;
+}
+
+
+
+
+
+
+
+/* ==========================================
+                TEAM
+=============================================*/
+
+/* ==========================================
+                TEAM
+=============================================*/
+
+/* ==========================================
+                TEAM
+=============================================*/
+
+/* ==========================================
+                TEAM
+=============================================*/
