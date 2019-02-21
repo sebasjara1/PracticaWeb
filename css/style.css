@@ -161,7 +161,9 @@ h3 {
     color: #34c6d3;
 }
 
-
+.icon-white i {
+    color: #ffffff;
+}
 
 /* ==========================================
                 HOME
@@ -453,21 +455,135 @@ ul.pricing-spec li p {
     color: #ffffff;
 }
 
+/* ==========================================
+                STATS
+=============================================*/
+
+#stats-cover{
+    background-image: url("../img/bg-stats.jpg");
+}
+
+#stats .content-box {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.stats-item {
+    padding: 100px 0;
+}
+
+.stats-item i{
+    color: #34c6d3;
+}
+
+.stats-item h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item p{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+}
 
 
+/* ==========================================
+                TEAM
+=============================================*/
 
+.client{
+    padding: 40px 0;
+}
 
+/* ==========================================
+                FOOTER
+=============================================*/
 
+footer {
+    background: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, .1);
+}
 
+#contact-left h3, #contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
 
+#contact-left p {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
 
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+address {
+    color: #ffffff;
+}
 
+address strong,
+#phone-fax-email strong{
+    letter-spacing: 1px;
+}
 
+form .form-control {
+    background: transparent !important;
+    border-radius: 0;
+    border-color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #ffffff !important;
+}
 
+#footer-bottom{
+    background-color: rgba(0, 0, 0, .1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
 
+#footer-copyrights p{
+    margin: 0;
+    color: #fff;
+}
 
+#footer-menu{
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
 
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
 
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover{
+    color: #34c6d3;
+}
 
 
 
@@ -476,9 +592,8 @@ ul.pricing-spec li p {
                 TEAM
 =============================================*/
 
-/* ==========================================
-                TEAM
-=============================================*/
+
+
 
 /* ==========================================
                 TEAM

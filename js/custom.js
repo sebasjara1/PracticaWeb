@@ -6,7 +6,7 @@ $(function(){
 });
 
 function IniciarComponentes (){
-     // Animate on scroll
+     // Animate elements on scroll
      new WOW().init();
 
      // Pop-up gallery
@@ -29,13 +29,14 @@ function IniciarComponentes (){
                  items:1
              },
              600:{
-                 items:3
+                 items:2
              },
              1000:{
                  items:3
              }
          }
      }); 
+
      $('#customers-testimonials').owlCarousel({
         loop:true,
         nav:true,
@@ -44,6 +45,37 @@ function IniciarComponentes (){
         autoplayHoverPause: true,
         items:1
     }); 
+
+    $('#clients-list').owlCarousel({
+        loop:true,
+        margin:20,
+        nav:true,
+        autoplay: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:4
+            },
+            1000:{
+                items:6
+            }
+        }
+    }); 
+
+
+
+    // Do effect counter on scroll
+    $(function(){
+        $('.counter').counterUp({
+            //miliseconds
+            delay: 10,
+            time: 1000
+        });
+    });
 }
 
 
